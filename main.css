@@ -33,7 +33,7 @@ body, button {
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
-    color: #444;
+    color: darkgrey;
  }
  
  .shopping-list, .add-book, .tabbed-content{
@@ -47,29 +47,28 @@ body, button {
  
  .shopping-list li {
     padding: 20px;
-    border-left: 5 px solid #ddd;
     margin: 20px 15px;
  }
  
  .shopping-list li:hover {
-    border-color: #9361bf;
+    border-color: darkblue;
  }
  
  .delete{
     float: right;
-    background: #9361bf;
+    background: darkblue;
     padding: 6px;
     border-radius: 4px;
-    color: #eee;
+    color: white;
     margin: 5px;
  }
  
  button {
     width: 100px;
-    background: #9361bf;
+    background: darkblue;
     padding: 6px;
     border-radius: 4px;
-    color: #eee;
+    color: white;
  }
  
  #add-product {
