@@ -1,0 +1,77 @@
+body, button {
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: #F4CB00;
+ }
+ 
+ h1 {
+    font-weight: normal;
+ }
+ 
+ .wrapper {
+    height: 1000px;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 0 0 20px;
+ }
+ .page-banner h1 {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+    margin-bottom: 50px;
+ }
+ 
+ .page-banner input {
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #444;
+ }
+ 
+ .shopping-list, .add-book, .tabbed-content{
+    margin: 30px;
+ }
+ 
+ .shopping-list ul, .tabbed-content ul {
+    list-style-type: none;
+    padding: 0;
+ }
+ 
+ .shopping-list li {
+    padding: 20px;
+    border-left: 5 px solid #ddd;
+    margin: 20px 15px;
+ }
+ 
+ .shopping-list li:hover {
+    border-color: #9361bf;
+ }
+ 
+ .delete{
+    float: right;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    color: #eee;
+    margin: 5px;
+ }
+ 
+ button {
+    width: 100px;
+    background: #9361bf;
+    padding: 6px;
+    border-radius: 4px;
+    color: #eee;
+ }
+ 
+ #add-product {
+    margin-left: 30px;
+ }
