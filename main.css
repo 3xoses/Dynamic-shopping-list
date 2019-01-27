@@ -1,4 +1,4 @@
-body, button {
+body {
     font-family: 'Montserrat', sans-serif;
     cursor: default;
     background-image: url(img/background.jpg);
@@ -72,5 +72,28 @@ body, button {
  }
  
  #add-product {
-    margin-left: 30px;
+    margin-left: 65px;
  }
+
+ @media only screen and (max-width: 414px) {
+    body {
+      background-size: 414px;
+      margin: 0;
+      background-position-y: 10px;
+    }
+    h1 {
+        font-size: 20px;
+     }
+
+    .wrapper {
+        margin-top: 0;
+    }
+
+    #add-product {
+        margin: 50px;
+    }
+    .shopping-list li {
+        margin: 5px;
+    }
+    
+  }
