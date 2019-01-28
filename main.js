@@ -14,11 +14,12 @@ addForm.addEventListener('submit', function (e) {
    const li = document.createElement('li');
    const productName = document.createElement ('span');
    const deleteBtn = document.createElement ('span');
-   deleteBtn.textContent = 'Usuń';
+   deleteBtn.textContent = 'W koszyku';
    productName.textContent = value;
    productName.classList.add('name');
    deleteBtn.classList.add('delete');
    li.appendChild(productName);
    li.appendChild(deleteBtn);
    list.appendChild(li);
+   addForm.reset();
 });
